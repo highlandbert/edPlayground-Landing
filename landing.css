@@ -7,8 +7,13 @@
 }
 
 .header {
-  padding: 1em 0em;
   display: flex;
+}
+
+.brand {
+  margin: -1em;
+  border-radius: 0em;
+  line-height: 3.25em;
 }
 
 .header h1 {
@@ -22,6 +27,7 @@
 .pitch {
   color: white;
   width: 100%;
+  margin-top: 1em;
 }
 
 .pitch > .image {
@@ -75,7 +81,8 @@
 }
 
 .contact {
-  padding: 1em 0em;
+  padding-top: 1em;
+  text-align: center;
 }
 
 .contact h2 {
@@ -84,22 +91,14 @@
 }
 
 .contact input {
-  margin: 0.5em 0em;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  min-width: 20em;
 }
 
 .contact textarea {
-  max-width: 500px;
   min-height: 200px;
   margin-bottom: 0.5em;
-}
-
-.footer {
-  border-top: 1px solid black;
-}
-
-.footer .copyright {
-  text-align: center;
-  font-size: 0.8em;
 }
 
 @media screen and (min-width: 780px) {
